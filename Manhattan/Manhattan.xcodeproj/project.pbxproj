@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3980206C1459C87600E678D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3980206B1459C87600E678D8 /* UIKit.framework */; };
+		3980206E1459C87600E678D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3980206D1459C87600E678D8 /* Foundation.framework */; };
+		398020701459C87600E678D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3980206F1459C87600E678D8 /* CoreGraphics.framework */; };
+		398020761459C87600E678D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398020741459C87600E678D8 /* InfoPlist.strings */; };
+		398020781459C87600E678D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 398020771459C87600E678D8 /* main.m */; };
+		3980207C1459C87600E678D8 /* ManhattanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980207B1459C87600E678D8 /* ManhattanAppDelegate.m */; };
+		398020841459C91500E678D8 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 398020831459C91500E678D8 /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		398020671459C87600E678D8 /* Manhattan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manhattan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3980206B1459C87600E678D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3980206D1459C87600E678D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3980206F1459C87600E678D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		398020731459C87600E678D8 /* Manhattan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Manhattan-Info.plist"; sourceTree = "<group>"; };
+		398020751459C87600E678D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		398020771459C87600E678D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		398020791459C87600E678D8 /* Manhattan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Manhattan-Prefix.pch"; sourceTree = "<group>"; };
+		3980207A1459C87600E678D8 /* ManhattanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManhattanAppDelegate.h; sourceTree = "<group>"; };
+		3980207B1459C87600E678D8 /* ManhattanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManhattanAppDelegate.m; sourceTree = "<group>"; };
+		398020821459C91500E678D8 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		398020831459C91500E678D8 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398020641459C87600E678D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3980206C1459C87600E678D8 /* UIKit.framework in Frameworks */,
+				3980206E1459C87600E678D8 /* Foundation.framework in Frameworks */,
+				398020701459C87600E678D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3980205C1459C87600E678D8 = {
+			isa = PBXGroup;
+			children = (
+				398020711459C87600E678D8 /* Manhattan */,
+				3980206A1459C87600E678D8 /* Frameworks */,
+				398020681459C87600E678D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398020681459C87600E678D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398020671459C87600E678D8 /* Manhattan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3980206A1459C87600E678D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3980206B1459C87600E678D8 /* UIKit.framework */,
+				3980206D1459C87600E678D8 /* Foundation.framework */,
+				3980206F1459C87600E678D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		398020711459C87600E678D8 /* Manhattan */ = {
+			isa = PBXGroup;
+			children = (
+				3980207A1459C87600E678D8 /* ManhattanAppDelegate.h */,
+				3980207B1459C87600E678D8 /* ManhattanAppDelegate.m */,
+				398020821459C91500E678D8 /* View.h */,
+				398020831459C91500E678D8 /* View.m */,
+				398020721459C87600E678D8 /* Supporting Files */,
+			);
+			path = Manhattan;
+			sourceTree = "<group>";
+		};
+		398020721459C87600E678D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398020731459C87600E678D8 /* Manhattan-Info.plist */,
+				398020741459C87600E678D8 /* InfoPlist.strings */,
+				398020771459C87600E678D8 /* main.m */,
+				398020791459C87600E678D8 /* Manhattan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398020661459C87600E678D8 /* Manhattan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3980207F1459C87600E678D8 /* Build configuration list for PBXNativeTarget "Manhattan" */;
+			buildPhases = (
+				398020631459C87600E678D8 /* Sources */,
+				398020641459C87600E678D8 /* Frameworks */,
+				398020651459C87600E678D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Manhattan;
+			productName = Manhattan;
+			productReference = 398020671459C87600E678D8 /* Manhattan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3980205E1459C87600E678D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 398020611459C87600E678D8 /* Build configuration list for PBXProject "Manhattan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3980205C1459C87600E678D8;
+			productRefGroup = 398020681459C87600E678D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398020661459C87600E678D8 /* Manhattan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398020651459C87600E678D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398020761459C87600E678D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398020631459C87600E678D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398020781459C87600E678D8 /* main.m in Sources */,
+				3980207C1459C87600E678D8 /* ManhattanAppDelegate.m in Sources */,
+				398020841459C91500E678D8 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		398020741459C87600E678D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398020751459C87600E678D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3980207D1459C87600E678D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3980207E1459C87600E678D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		398020801459C87600E678D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manhattan/Manhattan-Prefix.pch";
+				INFOPLIST_FILE = "Manhattan/Manhattan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		398020811459C87600E678D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manhattan/Manhattan-Prefix.pch";
+				INFOPLIST_FILE = "Manhattan/Manhattan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398020611459C87600E678D8 /* Build configuration list for PBXProject "Manhattan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3980207D1459C87600E678D8 /* Debug */,
+				3980207E1459C87600E678D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3980207F1459C87600E678D8 /* Build configuration list for PBXNativeTarget "Manhattan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398020801459C87600E678D8 /* Debug */,
+				398020811459C87600E678D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3980205E1459C87600E678D8 /* Project object */;
+}
